@@ -1,4 +1,12 @@
 # libusb
+## How to disable Live Preview in Adobe XD
+- Right click **Adobe XD.app**
+- Click **Show Package Contents**
+- Open **Contents/Frameworks**
+- Backup original **libusb-1.0.23.dylib** file (by adding postfix '.bak' or '.enable' or something in the filename)
+- Copy output/libusb-1.0.23.dylib (or copy output from compiled souce code by yourself) to Contents/Frameworks
+- Open Adobe XD.app and see if it works.
+- DONE!
 
 [![Build Status](https://travis-ci.org/libusb/libusb.svg?branch=master)](https://travis-ci.org/libusb/libusb)
 [![Build status](https://ci.appveyor.com/api/projects/status/xvrfam94jii4a6lw?svg=true)](https://ci.appveyor.com/project/LudovicRousseau/libusb)
