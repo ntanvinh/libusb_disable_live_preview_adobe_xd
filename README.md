@@ -3,9 +3,11 @@
 - Click **Show Package Contents**
 - Open **Contents/Frameworks**
 - Backup original **libusb-1.0.23.dylib** file (by adding postfix '.bak' or '.enable' or something in the filename)
-- Copy output/libusb-1.0.23.dylib (or copy output from compiled souce code by yourself) to Contents/Frameworks
+- Download libusb-1.0.23.dylib from release: https://github.com/ntanvinh/libusb_disable_live_preview_adobe_xd/releases/tag/v1 (or copy output from compiled souce code by yourself) to Contents/Frameworks
 - Open Adobe XD.app and see if it works.
 - DONE!
+
+p/s: The bash script **ToggleLivePreviewXD.sh** in folder **handy_script** will auto download modified-lib process with **curl** and help toggle Live Preview mode in case you need it again.
 
 ## Orignal Contents
 [![Build Status](https://travis-ci.org/libusb/libusb.svg?branch=master)](https://travis-ci.org/libusb/libusb)
